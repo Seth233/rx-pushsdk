@@ -1,0 +1,71 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+
+  <intent-filter>
+    <action name="com.dianping.push.START" />
+    <action name="com.xiaomi.mipush.sdk.WAKEUP" />
+    <action name="cn.jpush.android.intent.DaemonService" />
+    <!-- Baidu push -->
+    <action name="com.baidu.android.pushservice.action.METHOD" />
+    <action name="com.baidu.android.pushservice.action.BIND_SYNC" />
+    <!-- Baidu SSO -->
+    <action name="baidu.intent.action.account.SHARE_SERVICE" />
+
+    <action name="com.jingdong.app.mall.service.WatchDogService" />
+  </intent-filter>
+
+  <prescription type="service" class="com.google.android.gms.measurement.AppMeasurementService" sender="any" />
+  <prescription type="service" class="com.google.firebase.iid.FirebaseInstanceIdService" sender="any" />
+  <prescription type="service" class="com.google.firebase.crash.internal.service.FirebaseCrashReceiverService" sender="any" />
+  <prescription type="service" class="com.google.firebase.crash.internal.service.FirebaseCrashSenderService" sender="any" />
+  <prescription type="service" class="com.google.firebase.messaging.FirebaseMessagingService" sender="any" />
+  <prescription type="service" class="com.google.android.gms.analytics.AnalyticsService" sender="any" />
+  <prescription type="service" class="com.google.android.gms.analytics.CampaignTrackingService" sender="any" />
+
+  <prescription type="service" class="com.umeng.message.UmengService" sender="any" />  
+  <prescription type="service" class="com.umeng.message.UmengIntentService" sender="any" /> 
+  <prescription type="service" class="com.umeng.message.UmengMessageCallbackHandlerService" sender="any" /> 
+  <prescription type="service" class="com.umeng.message.UmengMessageIntentReceiverService" sender="any" /> 
+  <prescription type="service" class="com.umeng.message.UmengDownloadResourceService" sender="any" />
+  <prescription type="service" class="com.umeng.message.local.UmengLocalNotificationService" sender="any" />
+  <prescription type="service" class="com.umeng.update.net.DownloadingService" sender="any" /> 
+  <prescription type="service" class="com.umeng.common.net.DownloadingService" sender="any" /> 
+
+  <prescription type="service" class="com.taobao.accs.ChannelService" sender="any" /> 
+  <prescription type="service" class="com.taobao.accs.ChannelService\$KernelService" sender="any" /> 
+  <prescription type="service" class="com.taobao.accs.data.MsgDistributeService" sender="any" /> 
+  <prescription type="service" class="com.taobao.agoo.PushService" sender="any" /> 
+  <prescription type="service" class="com.taobao.agoo.TaobaoMessageIntentReceiverService" sender="any" /> 
+  <prescription type="service" class="org.android.agoo.accs.AgooService" sender="any" /> 
+
+  <prescription type="service" class="com.xiaomi.mipush.sdk.PushMessageHandler" sender="any" />  
+  <prescription type="service" class="com.xiaomi.mipush.sdk.MessageHandleService" sender="any" /> 
+  <prescription type="service" class="com.xiaomi.push.service.XMPushService" sender="any" />  
+  <prescription type="service" class="com.xiaomi.push.service.XMJobService" sender="any" />
+  
+  <prescription type="service" class="cn.jpush.android.service.DownloadService" sender="any" /> 
+  <prescription type="service" class="cn.jpush.android.service.PushService" sender="any" /> 
+  <prescription type="service" class="cn.jpush.android.service.DaemonService" sender="any" /> 
+  <prescription type="broadcast" class="cn.jpush.android.service.AlarmReceiver" sender="any" /> 
+  <prescription type="broadcast" class="cn.jpush.android.service.PushReceiver" sender="any" /> 
+  
+  <prescription type="service" class="com.igexin.sdk.PushService" sender="any" /> 
+  <prescription type="service" class="com.igexin.sdk.PushServiceUser" sender="any" /> 
+  <prescription type="service" class="com.igexin.download.DownloadService" sender="any" />  
+  <prescription type="service" class="com.igexin.getuiext.service.GetuiExtService" sender="any" /> 
+  <prescription type="activity" class="com.igexin.sdk.GActivity" sender="other-app"/>
+
+  <prescription type="service" class="com.baidu.android.pushservice.PushService" sender="any" />  
+  <prescription type="service" class="com.baidu.android.pushservice.CommandService" sender="any" />  
+  <prescription type="service" class="com.baidu.sapi2.share.ShareService" sender="any" />
+
+  <prescription type="service" class="com.dianping.base.push.pushservice.dp.FakeService" sender="any" />  
+  <prescription type="service" class="com.dianping.base.push.pushservice.dp.DPPushService" sender="any" />  
+
+  <prescription type="service" class="com.tencent.android.tpush.rpc.XGRemoteService" sender="any" />  
+  <prescription type="service" class="com.tencent.android.tpush.service.XGPushService" sender="any" />  
+
+  <prescription type="service" class="com.jingdong.jdpush.JDPushService" sender="any" />  
+  
+  <prescription type="service" package="com.sohu.inputmethod.sogou" class="com.sogou.udp.push.PushService" sender="any" />
+
+</prescriptions>
