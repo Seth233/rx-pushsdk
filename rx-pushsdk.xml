@@ -60,6 +60,7 @@
 
   <prescription type="service" class="com.dianping.base.push.pushservice.dp.FakeService" sender="any" />  
   <prescription type="service" class="com.dianping.base.push.pushservice.dp.DPPushService" sender="any" />  
+  <prescription type="service" class="com.dianping.base.push.pushservice.PushWakeUpJob" sender="any" />  
 
   <prescription type="service" class="com.tencent.android.tpush.rpc.XGRemoteService" sender="any" />  
   <prescription type="service" class="com.tencent.android.tpush.service.XGPushService" sender="any" />  
