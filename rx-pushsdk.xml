@@ -1,5 +1,15 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
 
+<prescription type="broadcast">
+  <intent-filter>
+    <action name="com.baidu.location.sen7.3.2" />
+    <action name="com.baidu.action.SOFIRE.VIEW" />
+    <action name="AlarmTaskSchedule.com.mobike.mobikeapp" />
+    <action name="AlarmTaskSchedule.so.ofo.labofo" />
+  </intent-filter>
+</prescription>
+
+<prescription type="service">
   <intent-filter>
     <action name="com.dianping.push.START" />
     <action name="com.xiaomi.mipush.sdk.WAKEUP" />
@@ -9,9 +19,10 @@
     <action name="com.baidu.android.pushservice.action.BIND_SYNC" />
     <!-- Baidu SSO -->
     <action name="baidu.intent.action.account.SHARE_SERVICE" />
-
+    <!-- Jingdong -->
     <action name="com.jingdong.app.mall.service.WatchDogService" />
   </intent-filter>
+</prescription>
 
   <prescription type="service" class="com.google.android.gms.measurement.AppMeasurementService" sender="any" />
   <prescription type="service" class="com.google.firebase.iid.FirebaseInstanceIdService" sender="any" />
