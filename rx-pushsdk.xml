@@ -25,10 +25,8 @@
 </prescription>
 
   <prescription type="service" class="com.google.android.gms.measurement.AppMeasurementService" sender="any" />
-  <prescription type="service" class="com.google.firebase.iid.FirebaseInstanceIdService" sender="any" />
   <prescription type="service" class="com.google.firebase.crash.internal.service.FirebaseCrashReceiverService" sender="any" />
   <prescription type="service" class="com.google.firebase.crash.internal.service.FirebaseCrashSenderService" sender="any" />
-  <prescription type="service" class="com.google.firebase.messaging.FirebaseMessagingService" sender="any" />
   <prescription type="service" class="com.google.android.gms.analytics.AnalyticsService" sender="any" />
   <prescription type="service" class="com.google.android.gms.analytics.CampaignTrackingService" sender="any" />
 
