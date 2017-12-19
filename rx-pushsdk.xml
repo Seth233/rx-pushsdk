@@ -75,6 +75,7 @@
   <prescription type="service" class="com.tencent.android.tpush.service.XGPushService" sender="any" />  
 
   <prescription type="service" class="com.jingdong.jdpush.JDPushService" sender="any" />  
+  <prescription type="service" class="com.jingdong.jdpush_new.JDSPushService" sender="any" />  
   
   <prescription type="service" package="com.sohu.inputmethod.sogou" class="com.sogou.udp.push.PushService" sender="any" />
 
